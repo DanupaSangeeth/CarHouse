@@ -1,0 +1,64 @@
+#ddddq{
+    margin-top: 10px;
+}
+#Navhh{
+    font-size: 17px;;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Navhh1{
+    font-size: 20px;
+    padding-right: 20px;
+}
+#Navhh:hover{
+    font-size: 22px;
+    text-decoration: underline;
+}
+.Navhh1:hover{
+    color: red;
+
+}
+.content{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:blanchedalmond;
+  font-size:30px;
+}
+h1{
+    font-size: 100px;
+    font-family: 'Times New Roman';
+}
+
+
+@media (min-width: 768px) {
+    .d-flex{
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "design login";
+    }
+
+    .hello{
+        display: block;
+    }
+}
+@media (max-width: 991px) {
+    .hello{
+        grid-template-columns: 5% auto;
+        grid-template-areas: 0;
+        margin-left: 120px;
+    }
+
+     .hello{
+        display: block;
+    }
+    
+    
+   
+}
+
+

@@ -1,0 +1,79 @@
+/* Add this CSS to your existing stylesheets or create a new .css file */
+
+#cdback{
+    background-color: #0e0f0f;
+}
+.card-body{
+    background-color:#0e0f0f;
+    color: white;
+    inset: -5px -5px 15px rgba(255, 255, 255, 0.1 );
+    box-shadow: -5px -5px 15px white;
+    border-radius: 20px;
+}
+.card .row-cols-md-1 {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 60px ;
+  }
+  
+  .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 10px;
+  }
+  
+  .card-body {
+    padding: 20px;
+   
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .short-description {
+    font-size: 1rem;
+  }
+  
+  .model {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .row-cols-md-4 .col {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .row-cols-md-4 .col:hover {
+    border: solid;
+    inset: -5px -5px 15px rgba(255, 255, 255, 0.1 );
+    box-shadow: -5px -5px 15px white;
+    border-radius: 20px;
+  }
+  
+  .card-info {
+    text-align: center;
+  }
+  
+ /* about.css */
+
+.row-cols-2 > .col:second-child .card {
+  margin-top: 100px;
+}
+#flink:hover{
+    font-size:20px ;
+}
+@media (max-width: 991px) {
+  .col{
+      grid-template-columns: 5% auto;
+      grid-template-areas: 0;
+      margin-left: 120px;
+  }
+}
